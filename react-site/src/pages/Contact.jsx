@@ -38,7 +38,7 @@ function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
     // In production, this would send to a backend
-    const mailtoLink = `mailto:MTS@Gmail.com?subject=Automation Inquiry from ${formData.name}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:mntntechsolutions@gmail.com?subject=Automation Inquiry from ${formData.name}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCompany: ${formData.company}\nService Interest: ${formData.service}\n\nMessage:\n${formData.message}`
     )}`
     window.location.href = mailtoLink
@@ -155,7 +155,7 @@ function ContactSection() {
             </p>
 
             <div className="contact-methods">
-              <a href="mailto:MTS@Gmail.com" className="contact-method">
+              <a href="mailto:mntntechsolutions@gmail.com" className="contact-method">
                 <div className="method-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
@@ -164,7 +164,7 @@ function ContactSection() {
                 </div>
                 <div className="method-details">
                   <span className="method-label">Email</span>
-                  <span className="method-value">MTS@Gmail.com</span>
+                  <span className="method-value">mntntechsolutions@gmail.com</span>
                 </div>
               </a>
 
@@ -288,7 +288,7 @@ function AuditSection() {
           </div>
 
           <a 
-            href="mailto:MTS@Gmail.com?subject=Free Workflow Audit Request" 
+            href="mailto:mntntechsolutions@gmail.com?subject=Free Workflow Audit Request" 
             className="btn btn-secondary btn-lg"
           >
             Request Your Free Audit

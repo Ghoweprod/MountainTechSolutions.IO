@@ -37,7 +37,7 @@ export default function Footer() {
 
           <div className="footer-links">
             <h4>Contact</h4>
-            <a href="mailto:MTS@Gmail.com">MTS@Gmail.com</a>
+            <a href="mailto:mntntechsolutions@gmail.com">mntntechsolutions@gmail.com</a>
             <a href="tel:864-404-1054">864-404-1054</a>
             <span className="footer-location">Robbinsville, NC</span>
           </div>
