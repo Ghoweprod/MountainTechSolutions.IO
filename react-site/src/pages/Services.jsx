@@ -150,7 +150,7 @@ function PageHero() {
           <h1>AI Automation Solutions</h1>
           <p className="page-hero-subtitle">
             From simple workflow automation to enterprise AI infrastructure. 
-            All services delivered remotely to clients nationwide.
+            Solutions that save you time and pay for themselves.
           </p>
         </motion.div>
       </div>
