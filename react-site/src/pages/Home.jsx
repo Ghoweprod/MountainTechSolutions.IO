@@ -459,7 +459,6 @@ function TestimonialSection() {
 <div className="testimonial-author">
                 <div className="author-info">
                   <span className="author-name">Small Business Owner</span>
-                  <span className="author-title">Remote Client</span>
                 </div>
               </div>
           </div>
