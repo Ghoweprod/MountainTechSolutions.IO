@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
@@ -7,6 +7,21 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import './App.css'
+
+// Handle GitHub Pages 404 redirect
+function HandleRedirect() {
+  const navigate = useNavigate()
+  
+  useEffect(() => {
+    const redirect = sessionStorage.getItem('redirect')
+    if (redirect) {
+      sessionStorage.removeItem('redirect')
+      navigate(redirect, { replace: true })
+    }
+  }, [navigate])
+  
+  return null
+}
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -22,6 +37,7 @@ function ScrollToTop() {
 function App() {
   return (
     <Router>
+      <HandleRedirect />
       <ScrollToTop />
       <Nav />
       <Routes>
