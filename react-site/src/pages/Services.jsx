@@ -291,7 +291,7 @@ function NotSureSection() {
             </svg>
           </Link>
           <span className="not-sure-note">
-            100% remote-friendly • Serving clients nationwide
+            We work with businesses across the country
           </span>
         </motion.div>
       </div>

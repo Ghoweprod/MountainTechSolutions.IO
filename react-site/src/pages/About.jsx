@@ -13,7 +13,7 @@ function PageHero() {
           <span className="section-label">About Us</span>
           <h1>Automation That Works For You</h1>
           <p className="page-hero-subtitle">
-            A remote-first AI automation agency serving clients nationwide.
+            An AI automation agency helping businesses work smarter.
           </p>
         </motion.div>
       </div>
@@ -46,9 +46,8 @@ function StorySection() {
               renewals in spreadsheets.
             </p>
             <p>
-              Today, we're a fully remote agency serving clients nationwide. From startups to established 
-              businesses, we deliver the same expertise and results—no matter where you're located. 
-              Video calls, screen sharing, and async collaboration make geography irrelevant.
+              Today, we work with businesses across the country—from startups to established companies. 
+              The work we do doesn't require us to be in the same room. We focus on results, not logistics.
             </p>
           </motion.div>
           <motion.div 
@@ -64,11 +63,11 @@ function StorySection() {
                   <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
                 </svg>
               </div>
-              <h3>Remote-First</h3>
-              <p>Serving Clients Nationwide</p>
+              <h3>Nationwide</h3>
+              <p>Serving Clients Everywhere</p>
               <div className="location-details">
-                <span>Video consultations</span>
-                <span>Async collaboration</span>
+                <span>Based in North Carolina</span>
+                <span>Working with clients across the US</span>
               </div>
             </div>
           </motion.div>
@@ -109,8 +108,8 @@ const differentiators = [
         <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
       </svg>
     ),
-    title: "Fully Remote Workflow",
-    description: "We've perfected remote delivery. Video calls, screen sharing, and async collaboration—same great results without the geographic constraints."
+    title: "No Geographic Limits",
+    description: "We work with clients across the country. Location doesn't affect quality—you get the same expertise and results wherever you are."
   },
   {
     icon: (

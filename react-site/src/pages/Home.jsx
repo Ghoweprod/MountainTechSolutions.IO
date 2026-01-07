@@ -344,10 +344,10 @@ function ValueProps() {
             viewport={{ once: true }}
           >
             <span className="section-label">Why Choose Us</span>
-            <h2 className="section-title">Remote-First, Results-Focused</h2>
+            <h2 className="section-title">Results That Speak For Themselves</h2>
             <p className="section-subtitle">
-              We work with clients across the country through seamless remote collaboration. 
-              No geographic limits—just expertise delivered wherever you are.
+              We work with businesses of all sizes to automate what's slowing them down. 
+              Wherever you're located, you get the same expertise and results.
             </p>
 
             <div className="value-list">
@@ -359,8 +359,8 @@ function ValueProps() {
                   </svg>
                 </div>
                 <div>
-                  <h4>100% Remote Delivery</h4>
-                  <p>Video calls, screen sharing, and async collaboration. Work with us from anywhere.</p>
+                  <h4>Work With Us From Anywhere</h4>
+                  <p>We serve clients nationwide. Location doesn't limit what we can build together.</p>
                 </div>
               </div>
 
@@ -495,7 +495,7 @@ function CTASection() {
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
             </Link>
-            <span className="cta-note">No commitment required • 100% remote-friendly</span>
+            <span className="cta-note">No commitment required</span>
           </div>
         </motion.div>
       </div>

@@ -189,20 +189,20 @@ function ContactSection() {
                 </div>
                 <div className="method-details">
                   <span className="method-label">Location</span>
-                  <span className="method-value">Remote-First</span>
-                  <span className="method-note">Serving clients nationwide</span>
+                  <span className="method-value">Nationwide</span>
+                  <span className="method-note">Based in North Carolina</span>
                 </div>
               </div>
             </div>
 
             <div className="availability-cards">
               <div className="availability-card">
-                <h4>🌐 Remote Collaboration</h4>
-                <p>Video consultations, screen sharing, and async collaboration. We work with clients across all time zones.</p>
+                <h4>📍 Serving Clients Nationwide</h4>
+                <p>We work with businesses across the country. Your location doesn't limit what we can build together.</p>
               </div>
               <div className="availability-card">
                 <h4>⚡ Fast Turnaround</h4>
-                <p>No travel delays. Remote-first means we can start immediately and iterate quickly on your automation projects.</p>
+                <p>We move quickly. Most projects start within days of signing, not weeks.</p>
               </div>
             </div>
 

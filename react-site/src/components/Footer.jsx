@@ -17,7 +17,7 @@ export default function Footer() {
               <span className="mono">MNTN_Tech</span>
             </Link>
             <p className="footer-tagline">
-              AI automation that saves you 10-20 hours per week. Serving clients nationwide with fully remote delivery.
+              AI automation that saves you 10-20 hours per week. Serving clients across the country.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <p>© 2026 Mountain Tech Solutions. All rights reserved.</p>
           <p className="footer-service-area">
-            Remote-first agency serving clients nationwide
+            Serving clients nationwide
           </p>
         </div>
       </div>
