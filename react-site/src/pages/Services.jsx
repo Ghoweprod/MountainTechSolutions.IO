@@ -150,7 +150,7 @@ function PageHero() {
           <h1>AI Automation Solutions</h1>
           <p className="page-hero-subtitle">
             From simple workflow automation to enterprise AI infrastructure. 
-            All services available locally in Western NC or remotely nationwide.
+            All services delivered remotely to clients nationwide.
           </p>
         </motion.div>
       </div>
@@ -291,7 +291,7 @@ function NotSureSection() {
             </svg>
           </Link>
           <span className="not-sure-note">
-            Available in-person (Western NC) or remote (nationwide)
+            100% remote-friendly • Serving clients nationwide
           </span>
         </motion.div>
       </div>

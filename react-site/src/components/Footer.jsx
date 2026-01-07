@@ -17,7 +17,7 @@ export default function Footer() {
               <span className="mono">MNTN_Tech</span>
             </Link>
             <p className="footer-tagline">
-              AI automation that saves you 10-20 hours per week. Serving businesses in Western North Carolina and nationwide.
+              AI automation that saves you 10-20 hours per week. Serving clients nationwide with fully remote delivery.
             </p>
           </div>
 
@@ -39,14 +39,14 @@ export default function Footer() {
             <h4>Contact</h4>
             <a href="mailto:mntntechsolutions@gmail.com">mntntechsolutions@gmail.com</a>
             <a href="tel:864-404-1054">864-404-1054</a>
-            <span className="footer-location">Robbinsville, NC</span>
+            <span className="footer-location">Based in NC • Working Remotely</span>
           </div>
         </div>
 
         <div className="footer-bottom">
           <p>© 2026 Mountain Tech Solutions. All rights reserved.</p>
           <p className="footer-service-area">
-            Serving Western North Carolina locally & clients nationwide remotely
+            Remote-first agency serving clients nationwide
           </p>
         </div>
       </div>

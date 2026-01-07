@@ -183,26 +183,26 @@ function ContactSection() {
               <div className="contact-method">
                 <div className="method-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                    <circle cx="12" cy="10" r="3"/>
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
                   </svg>
                 </div>
                 <div className="method-details">
                   <span className="method-label">Location</span>
-                  <span className="method-value">Robbinsville, NC</span>
-                  <span className="method-note">Western North Carolina</span>
+                  <span className="method-value">Remote-First</span>
+                  <span className="method-note">Serving clients nationwide</span>
                 </div>
               </div>
             </div>
 
             <div className="availability-cards">
               <div className="availability-card">
-                <h4>🏔️ Local Clients</h4>
-                <p>In-person consultations available throughout Western North Carolina. We're happy to meet at your office or a local spot.</p>
+                <h4>🌐 Remote Collaboration</h4>
+                <p>Video consultations, screen sharing, and async collaboration. We work with clients across all time zones.</p>
               </div>
               <div className="availability-card">
-                <h4>🌐 Remote Clients</h4>
-                <p>Video consultations, screen sharing, and remote implementation for clients anywhere in the country. Same service, no travel required.</p>
+                <h4>⚡ Fast Turnaround</h4>
+                <p>No travel delays. Remote-first means we can start immediately and iterate quickly on your automation projects.</p>
               </div>
             </div>
 

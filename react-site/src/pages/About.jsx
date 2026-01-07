@@ -13,7 +13,7 @@ function PageHero() {
           <span className="section-label">About Us</span>
           <h1>Automation That Works For You</h1>
           <p className="page-hero-subtitle">
-            Based in Western North Carolina's mountain community, serving businesses locally and nationwide.
+            A remote-first AI automation agency serving clients nationwide.
           </p>
         </motion.div>
       </div>
@@ -34,21 +34,21 @@ function StorySection() {
           >
             <h2>Our Story</h2>
             <p>
-              Mountain Tech Solutions was founded with a simple mission: help businesses work smarter 
+              MNTN_Tech was founded with a simple mission: help businesses work smarter 
               through AI automation. We saw too many business owners drowning in repetitive tasks—follow-up 
               emails, data entry, appointment scheduling—work that machines could handle while humans 
               focused on what actually grows the business.
             </p>
             <p>
-              Based in Robbinsville, NC, in the heart of Western North Carolina's mountain community, 
-              we started by helping local businesses. The contractor who was losing leads because he 
-              couldn't respond fast enough. The real estate agent spending half her day on email instead 
-              of showing houses. The insurance broker manually tracking policy renewals in spreadsheets.
+              We started by helping small businesses with practical automation. The contractor who was 
+              losing leads because he couldn't respond fast enough. The real estate agent spending half 
+              her day on email instead of showing houses. The insurance broker manually tracking policy 
+              renewals in spreadsheets.
             </p>
             <p>
-              Today, we serve businesses both locally—where we're available for face-to-face 
-              consultations—and nationwide through remote delivery. Whether you're down the street 
-              in Graham County or across the country, you get the same expertise and results.
+              Today, we're a fully remote agency serving clients nationwide. From startups to established 
+              businesses, we deliver the same expertise and results—no matter where you're located. 
+              Video calls, screen sharing, and async collaboration make geography irrelevant.
             </p>
           </motion.div>
           <motion.div 
@@ -60,15 +60,15 @@ function StorySection() {
             <div className="location-card">
               <div className="location-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                  <circle cx="12" cy="10" r="3"/>
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
                 </svg>
               </div>
-              <h3>Robbinsville, NC</h3>
-              <p>Western North Carolina</p>
+              <h3>Remote-First</h3>
+              <p>Serving Clients Nationwide</p>
               <div className="location-details">
-                <span>Local consultations available</span>
-                <span>Remote service nationwide</span>
+                <span>Video consultations</span>
+                <span>Async collaboration</span>
               </div>
             </div>
           </motion.div>
@@ -105,12 +105,12 @@ const differentiators = [
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/>
-        <circle cx="12" cy="10" r="3"/>
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
       </svg>
     ),
-    title: "Local + Remote Hybrid",
-    description: "Face-to-face service for Western NC clients, proven remote delivery for businesses nationwide. Work with us however you prefer."
+    title: "Fully Remote Workflow",
+    description: "We've perfected remote delivery. Video calls, screen sharing, and async collaboration—same great results without the geographic constraints."
   },
   {
     icon: (
@@ -287,8 +287,8 @@ function CTASection() {
         >
           <h2>Ready to Get Started?</h2>
           <p>
-            Whether you're in Western North Carolina or anywhere in the country, 
-            let's talk about how automation can save you time and money.
+            Wherever you're located, let's talk about how automation 
+            can save you time and money.
           </p>
           <div className="cta-actions">
             <Link to="/contact" className="btn btn-primary btn-lg">

@@ -113,7 +113,7 @@ function Hero() {
         >
           <motion.div variants={fadeInUp} className="badge badge-emerald">
             <span className="badge-dot" />
-            Western NC & Nationwide
+            Serving Clients Nationwide
           </motion.div>
           
           <motion.h1 variants={fadeInUp}>
@@ -344,23 +344,23 @@ function ValueProps() {
             viewport={{ once: true }}
           >
             <span className="section-label">Why Choose Us</span>
-            <h2 className="section-title">Local Expertise, National Reach</h2>
+            <h2 className="section-title">Remote-First, Results-Focused</h2>
             <p className="section-subtitle">
-              Based in Western North Carolina's mountain community, we offer face-to-face 
-              service for local clients and proven remote delivery for businesses nationwide.
+              We work with clients across the country through seamless remote collaboration. 
+              No geographic limits—just expertise delivered wherever you are.
             </p>
 
             <div className="value-list">
               <div className="value-item">
                 <div className="value-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/>
-                    <circle cx="12" cy="10" r="3"/>
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
                   </svg>
                 </div>
                 <div>
-                  <h4>Local + Remote Hybrid</h4>
-                  <p>Face-to-face for Western NC clients, seamless remote for everyone else.</p>
+                  <h4>100% Remote Delivery</h4>
+                  <p>Video calls, screen sharing, and async collaboration. Work with us from anywhere.</p>
                 </div>
               </div>
 
@@ -456,12 +456,12 @@ function TestimonialSection() {
               The system qualifies leads, schedules appointments, and sends reminders—all without us touching anything. 
               It paid for itself in the first month."
             </blockquote>
-            <div className="testimonial-author">
-              <div className="author-info">
-                <span className="author-name">Local Business Owner</span>
-                <span className="author-title">Western North Carolina</span>
+<div className="testimonial-author">
+                <div className="author-info">
+                  <span className="author-name">Small Business Owner</span>
+                  <span className="author-title">Remote Client</span>
+                </div>
               </div>
-            </div>
           </div>
         </motion.div>
       </div>
@@ -495,7 +495,7 @@ function CTASection() {
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
             </Link>
-            <span className="cta-note">No commitment required • Available locally & remotely</span>
+            <span className="cta-note">No commitment required • 100% remote-friendly</span>
           </div>
         </motion.div>
       </div>
